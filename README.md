@@ -203,17 +203,4 @@ flutter run
 
 The app provides 14 organized inputs, a **Predict** button, loading feedback, the predicted PM2.5 value, and readable validation/API errors.
 
-## GitHub submission checklist
 
-- [ ] Notebook runs from top to bottom
-- [ ] At least two meaningful visualizations are visible
-- [ ] Batch GD linear regression, SGD linear regression, decision tree, and random forest are trained
-- [ ] Train and test loss curves are plotted for both gradient-descent linear models
-- [ ] Best model and metadata are committed
-- [ ] One-row test prediction is shown
-- [ ] API validates data types and ranges
-- [ ] CORS uses explicit allowed origins
-- [ ] `/retrain` works with a CSV and secret token
-- [ ] Render `/docs` link is public
-- [ ] Flutter app calls the public `/predict` endpoint
-- [ ] Video is no longer than seven minutes

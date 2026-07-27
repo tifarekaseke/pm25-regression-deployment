@@ -37,7 +37,7 @@ class PredictionPage extends StatefulWidget {
 
 class _PredictionPageState extends State<PredictionPage> {
   static const String apiUrl =
-      'http://192.168.1.83:8000/predict';
+    'https://pm25-regression-deployment.onrender.com/predict';
 
   final _formKey = GlobalKey<FormState>();
   final Map<String, TextEditingController> _controllers = {

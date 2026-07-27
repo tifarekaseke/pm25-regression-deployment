@@ -9,6 +9,7 @@ My mission is to support healthier urban communities through accessible environm
 The dataset contains 420,768 hourly observations from 12 monitoring stations between March 2013 and February 2017. It includes six air pollutants, six meteorological variables, time fields, wind direction, station name, and missing values. The target is `PM2.5` concentration in µg/m³.
 
 Video Link :(https://youtu.be/vhXHyZ5CqB4)
+Swagger UI Url : (https://pm25-regression-deployment.onrender.com/docs)
 ## Repository structure
 
 ```text
@@ -202,5 +203,3 @@ flutter run
 ```
 
 The app provides 14 organized inputs, a **Predict** button, loading feedback, the predicted PM2.5 value, and readable validation/API errors.
-
-

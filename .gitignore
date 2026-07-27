@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data and generated outputs
+data/raw/
+data/uploads/*.csv
+models/*.joblib
+models/*.json
+outputs/
+
+# Keep empty folders
+!data/.gitkeep
+!models/.gitkeep
+
+# Flutter
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/build/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+summative/FlutterApp/android/.gradle/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

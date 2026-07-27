@@ -1,0 +1,16 @@
+{
+  "month": 7,
+  "hour": 14,
+  "pm10": 120,
+  "so2": 12,
+  "no2": 45,
+  "co": 900,
+  "o3": 70,
+  "temperature": 28.5,
+  "pressure": 1004,
+  "dew_point": 17.2,
+  "rainfall": 0,
+  "wind_speed": 2.4,
+  "wind_direction": "SE",
+  "station": "Aotizhongxin"
+}

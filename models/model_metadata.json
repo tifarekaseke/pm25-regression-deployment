@@ -1,0 +1,75 @@
+{
+  "best_model_name": "Random Forest (Ensemble)",
+  "target": "PM2.5",
+  "unit": "\u00b5g/m\u00b3",
+  "feature_columns": [
+    "month",
+    "hour",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM",
+    "wd",
+    "station"
+  ],
+  "numeric_features": [
+    "month",
+    "hour",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM"
+  ],
+  "categorical_features": [
+    "wd",
+    "station"
+  ],
+  "metrics": {
+    "Random Forest (Ensemble)": {
+      "MSE": 443.9432614535761,
+      "RMSE": 21.06996111656536,
+      "MAE": 13.245444899725305,
+      "R2": 0.9328884830726994
+    },
+    "Decision Tree": {
+      "MSE": 699.6401501953949,
+      "RMSE": 26.450711714345132,
+      "MAE": 16.15507811300643,
+      "R2": 0.8942344307037817
+    },
+    "Stochastic Gradient Descent Linear Regression": {
+      "MSE": 955.5598213343709,
+      "RMSE": 30.91213065018927,
+      "MAE": 20.494886278847193,
+      "R2": 0.8555467000117176
+    },
+    "Batch Gradient Descent Linear Regression": {
+      "MSE": 1050.3087265500633,
+      "RMSE": 32.40846689601443,
+      "MAE": 21.714892635536252,
+      "R2": 0.84122337694695
+    }
+  },
+  "best_batch_gd_params": {
+    "learning_rate": 0.01,
+    "l2_penalty": 0.0
+  },
+  "best_sgd_params": {
+    "alpha": 0.0001,
+    "eta0": 0.001,
+    "learning_rate": "adaptive"
+  },
+  "training_rows": 120000
+}
